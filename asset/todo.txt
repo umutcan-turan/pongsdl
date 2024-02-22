@@ -1,0 +1,41 @@
+implement classic pong 2 player
+
++ fixed timestep for logic, free for drawing
+
++ delta time dt to logic funcs
+
++ --- delta time dt to draw funcs (interpolate)
++ used really small dt instead
+
++ separate pixel vs world coords
+
++ textures
+
+add cpu player
+
++ text, hud
+
+menu
+
++ states
+
+sound effects
+
+camera effects
+
+timers, animations
+
+particle effects
+
+enhance gameplay
+
+gamepad support
+
+options:
+	resolution
+	volume
+	keybinding
+
+port opengl + glfw
+
+port again to opengl + glfw, embed lua, game logic in lua
