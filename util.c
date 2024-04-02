@@ -6,6 +6,8 @@
 
 #include "util.h"
 
+/* The following functions has been adapted from suckless.org projects: die, ecalloc */
+/* The following functions has been adapted from lua math standard library: rand_norm, rand_range */
 void die(const char *fmt, ...)
 {
 	va_list ap;
